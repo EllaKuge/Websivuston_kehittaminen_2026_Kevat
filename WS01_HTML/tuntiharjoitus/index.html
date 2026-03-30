@@ -1,15 +1,69 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fi">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ellan sivu</title>
   </head>
-  <body>
+<body>
     <h1>Ellan sivu</h1>
     <p>
       Tämä on Ellan henkilökohtainen sivu, jossa hän jakaa tietoa ja
       kokemuksiaan. Tervetuloa!
     </p>
+    <img
+      src="../images/Ella.jpeg"
+      alt="Kuva Ellasta"
+      width="500"
+      height="550"
+    />
+    <h2>Lempi elokuvani</h2>
+    <ol>
+      <li>Pride and Prejudice</li>
+      <li>Bram Stoker's Dracula</li>
+      <li>The Phantom of the Opera</li>
+    </ol>
+
+    <h2>Harrastukseni</h2>
+    <ul>
+      <li>Kirjojen lukeminen</li>
+      <li>Leffojen katselu</li>
+      <li>Muumitavaroiden keräily</li>
+    </ul>
+    <a
+      href="https://www.finnishdesignshop.fi/fi-fi/vapaa-aika-kodinhoito/muumituotteet?srsltid=AfmBOor90okc4mOtCXF3bFLGcN_dKy6p7dIbU60QhV4JR1a9sJuudywW"
+      target="_blank"
+      >Muumituotteet</a
+    >
+
+    <table>
+      <tr>
+        <th>Harrastus</th>
+        <th>Miksi pidän siitä</th>
+        <th>Kuinka usein</th>
+      </tr>
+      <tr>
+        <td>Kirjat</td>
+        <td>Rentouttavaa</td>
+        <td>Viikottain</td>
+      </tr>
+      <tr>
+        <td>Leffat</td>
+        <td>Rentouttavaa</td>
+        <td>Joka päivä</td>
+      </tr>
+      <tr>
+        <td>Muumikeräily</td>
+        <td>Materialismionnellisuus</td>
+        <td>Kuukausittain</td>
+      </tr>
+    </table>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
   </body>
 </html>
