@@ -1,0 +1,83 @@
+h2 {
+  color: rgb(168, 110, 223);
+  font-style: italic;
+}
+p {
+  color: rgb(168, 118, 219);
+  font-weight: bold;
+}
+body {
+  background-color: rgb(155, 127, 185);
+}
+h1 {
+  font-size: 2em;
+  font-family: garamond, serif;
+}
+.content-box {
+  padding: 10px;
+  margin: 0px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+th,
+td {
+  border: 1px solid #c285c1;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #e1a9e3;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: -15px;
+}
+input[type="submit"] {
+  background-color: #71b373;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 150px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+h3 {
+  color: rgb(168, 110, 223);
+}
+.wrapper {
+  width: 500px;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: rgb(215, 196, 222);
+  padding: 15px;
+  border-style: solid;
+  border-color: rebeccapurple;
+  border-radius: 15px;
+}
