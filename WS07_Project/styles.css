@@ -1,0 +1,64 @@
+.wrapper {
+  width: 600px;
+  height: 900px;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: rgb(240, 242, 246);
+  padding: 15px;
+  border-style: solid;
+  border-color: rgb(236, 234, 65);
+  border-radius: 15px;
+}
+header h1 {
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 4rem;
+}
+header {
+    background-image: url("images/IMG_2801.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper2 {
+    width: 550px;
+    height: 900px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgb(240, 242, 246);
+    padding: 15px;
+    border-style: solid;
+    border-color: rgb(65, 165, 88);
+    border-radius: 15px;
+}
+.wrapper3 {
+    width: 550px;
+    height: 900px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgb(240, 242, 246);
+    padding: 15px;
+    border-style: solid;
+    border-color: rgb(65, 165, 88);
+    border-radius: 15px;
+}
+.wrapper4 {
+    width: 550px;
+    height: 900px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgb(240, 242, 246);
+    padding: 15px;
+    border-style: solid;
+    border-color: rgb(65, 165, 88);
+    border-radius: 15px;
+}
